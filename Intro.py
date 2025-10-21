@@ -80,11 +80,11 @@ with col1:
 # COLUMNA 2
 # =======================
 with col2:
-    st.markdown("### 🎙️ Conversión de voz a texto")
-    image = Image.open('OIG8.jpg')
+    st.markdown("### 🎙️ Traductor")
+    image = Image.open('ebbacd691475f0a6f7d43d7be15472aa.jpg')
     st.image(image, use_container_width=True)
-    st.write("Transcribe tu voz en texto automáticamente.")
-    st.link_button("Abrir Voz a Texto", "https://traductor-ab0sp9f6fi.streamlit.app/")
+    st.write("Habla y deja que la IA traduzca tu voz a otro idioma 🌍.")
+    st.link_button("Abrir Traductor", "https://traductor-mnd2sehjafc6r7kr2fmx3m.streamlit.app")
 
     st.divider()
 
