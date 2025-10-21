@@ -34,17 +34,7 @@ with st.sidebar:
     st.write(parrafo)
     st.info("📎 Cada aplicación abre en una nueva página desarrollada con Streamlit.")
 
-# --- ENLACE PRINCIPAL ---
-url_ia = "https://sites.google.com/view/aplicacionesdeia/inicio"
-st.markdown(
-    f"""
-    <div style='text-align:center; margin-bottom:30px;'>
-        <h3>🔗 Recursos y ejercicios prácticos</h3>
-        <p>Puedes acceder a más ejemplos en el siguiente enlace:</p>
-        <a href="{url_ia}" target="_blank" style='font-size:18px; color:#117A65; font-weight:bold; text-decoration:none;'>Ir a las páginas y ejercicios →</a>
-    </div>
-    """,
-    unsafe_allow_html=True
+
 )
 
 # --- COLUMNAS PRINCIPALES ---
