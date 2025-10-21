@@ -55,7 +55,7 @@ col1, col2, col3 = st.columns(3)
 # =======================
 with col1:
     st.markdown("###  Analizador Semántico en Español")
-    image = Image.open('txt_to_audio2.png')
+    image = Image.open('imagen_2025-10-21_160938233.png')
     st.image(image, use_container_width=True)
     st.write("Explora cómo la inteligencia artificial analiza similitudes entre textos usando TF-IDF, Ingresa tus documentos y una pregunta para descubrir cuál tiene la respuesta más cercana.")
     st.link_button("Abrir Texto a Voz", "https://fpjf47zlshrzwcsafmahnc.streamlit.app")
