@@ -106,11 +106,11 @@ with col2:
 # COLUMNA 3
 # =======================
 with col3:
-    st.markdown("### 📄 Generación en Contexto (RAG)")
-    image = Image.open('Chat_pdf.png')
+    st.markdown("### 📄 Análisis de Imagen")
+    image = Image.open('53e2de66257f04782768afcd09a5fc9d.jpg')
     st.image(image, use_container_width=True)
-    st.write("Consulta documentos PDF y obtén respuestas precisas con RAG.")
-    st.link_button("Abrir RAG", "https://chatpdf-cc.streamlit.app/")
+    st.write("Herramienta interactiva que analiza imágenes usando modelos de OpenAI.")
+    st.link_button("Abrir Analizador", "https://imagen-texto-gfbubhzt3xgvzwjjnxlbqj.streamlit.app")
 
     st.divider()
 
