@@ -114,11 +114,11 @@ with col3:
 
     st.divider()
 
-    st.markdown("### 🖼️ Análisis de Imagen")
-    image = Image.open('OIG4.jpg')
+    st.markdown("### 🖼️ Teachable Machine")
+    image = Image.open('2a9847d15807e6bc8037c57afa472967.jpg')
     st.image(image, use_container_width=True)
-    st.write("Describe y analiza imágenes con el modelo GPT-4 Vision.")
-    st.link_button("Abrir Vision", "https://vision2-gpt4o.streamlit.app/")
+    st.write("Usa un modelo entrenado en Teachable Machine para identificar objetos o gestos desde tu cámara.")
+    st.link_button("Techable Machine", "https://cypc5gqb9zkxspyvuz6l6q.streamlit.app")
 
     st.divider()
 
