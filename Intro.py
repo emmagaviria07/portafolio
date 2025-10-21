@@ -58,7 +58,7 @@ with col1:
     image = Image.open('txt_to_audio2.png')
     st.image(image, use_container_width=True)
     st.write("Convierte texto escrito en voz humana con IA.")
-    st.link_button("Abrir Texto a Voz", "https://imultimod.streamlit.app/")
+    st.link_button("Abrir Texto a Voz", "https://fpjf47zlshrzwcsafmahnc.streamlit.app")
 
     st.divider()
 
