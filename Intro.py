@@ -88,11 +88,11 @@ with col2:
 
     st.divider()
 
-    st.markdown("### 📊 Análisis de Datos")
-    image = Image.open('data_analisis.png')
+    st.markdown("### 📊 Draw Recognition")
+    image = Image.open('b7aff56aca12d85062f2a1f8a6e080ce.jpg')
     st.image(image, use_container_width=True)
-    st.write("Analiza archivos de datos con ayuda de agentes inteligentes.")
-    st.link_button("Abrir Analizador", "https://asistpy-csv.streamlit.app/")
+    st.write("Dibuja algo, presiona “Analizar la imagen”, y observa cómo el modelo lo describe. ")
+    st.link_button("Abrir Draw Recognition", "https://drawrecog-9y2tfmeapp7uj8qdem9p2kl.streamlit.app")
 
     st.divider()
 
