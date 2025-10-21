@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-# --- CONFIGURACIÓN GENERAL ---
+
 st.set_page_config(
     page_title="Aplicaciones de Inteligencia Artificial",
     page_icon="🤖",
@@ -9,7 +9,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --- TÍTULO PRINCIPAL ---
+
 st.markdown(
     """
     <h1 style='text-align:center; color:#2E86C1;'>
@@ -23,7 +23,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# --- SIDEBAR ---
+
 with st.sidebar:
     st.header("💡 Sobre estas aplicaciones")
     parrafo = (
@@ -34,7 +34,6 @@ with st.sidebar:
     st.write(parrafo)
     st.info("📎 Cada aplicación abre en una nueva página desarrollada con Streamlit.")
 
-# --- ENLACE PRINCIPAL ---
 url_ia = "https://sites.google.com/view/aplicacionesdeia/inicio"
 st.markdown(
     f"""
@@ -50,9 +49,7 @@ st.markdown(
 # --- COLUMNAS PRINCIPALES ---
 col1, col2, col3 = st.columns(3)
 
-# =======================
-# COLUMNA 1
-# =======================
+
 with col1:
     st.markdown("###  Analizador Semántico en Español")
     image = Image.open('imagen_2025-10-21_160938233.png')
@@ -76,9 +73,7 @@ with col1:
     st.write("Explora cómo TextBlob interpreta el tono emocional de tus palabras y mejora tu escritura en inglés con su sistema de corrección automática. ")
     st.link_button("Abrir Analizador de Sentimientos y Corrección de Texto", "https://scvxamkhdjwswtzyhwwnxq.streamlit.app")
 
-# =======================
-# COLUMNA 2
-# =======================
+
 with col2:
     st.markdown("### 🎙️ Traductor")
     image = Image.open('ebbacd691475f0a6f7d43d7be15472aa.jpg')
@@ -102,9 +97,6 @@ with col2:
     st.write("Este asistente utiliza RAG (Retrieval-Augmented Generation) para responder preguntas basadas en el contenido de un PDF. Sube un documento, haz una pregunta, y deja que el modelo te dé una respuesta contextualizada. 📘✨")
     st.link_button("Abrir Chat PDF", "https://chatpdf-hq3ejh6xa6ar6xmjmujbjh.streamlit.app")
 
-# =======================
-# COLUMNA 3
-# =======================
 with col3:
     st.markdown("### 📄 Análisis de Imagen")
     image = Image.open('53e2de66257f04782768afcd09a5fc9d.jpg')
@@ -128,32 +120,30 @@ with col3:
     st.write("Esrcibe y/o selecciona texto para ser escuchado.")
     st.link_button("Abrir", "https://vozatexto-cuento-7prvibeydfnkmbzvfnbf8p.streamlit.app")
 
-# =======================
-# SECCIÓN EXTRA (AL FINAL)
-# =======================
+
 
 st.markdown("---")  # Línea divisoria para separar visualmente la nueva sección
 
 st.markdown(
     """
     <h2 style='text-align:center; color:#1A5276;'>
-        🚀 Proyecto Extra de Inteligencia Artificial
+        🚀 Intro de las apps 
     </h2>
     <p style='text-align:center; font-size:16px;'>
-        Descubre una aplicación adicional creada con IA para explorar nuevas posibilidades tecnológicas.
+        La puse al final :)
     </p>
     """,
     unsafe_allow_html=True
 )
 
 # Centrado de contenido (imagen + botón)
-col_a, col_b, col_c = st.columns([1, 2, 1])  # Centra el bloque en pantalla
+col_a, col_b, col_c = st.columns([1, 2, 1])  
 with col_b:
-    image = Image.open("imagen_2025-10-21_164905350.png")  # Cambia este nombre por tu imagen
+    image = Image.open("imagen_2025-10-21_164905350.png")  
     st.image(image, use_container_width=True)
     st.write(
-        "<p style='text-align:center;'>Explora esta herramienta impulsada por Inteligencia Artificial.</p>",
+        "<p style='text-align:center;'>Aca empezamos.</p>",
         unsafe_allow_html=True
     )
-    st.link_button("Abrir Proyecto Extra", "https://tu-nueva-app.streamlit.app")  # Cambia el enlace aquí
+    st.link_button("Abrir Intro", "https://appemma.streamlit.app")  
 
