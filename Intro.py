@@ -62,7 +62,7 @@ with col1:
 
     st.divider()
 
-    st.markdown("### 🎯 Analizador Emocional")
+    st.markdown("### 🎯 Analizador Emocional de texto")
     image = Image.open('emociones.png')
     st.image(image, use_container_width=True)
     st.write("Explora la emoción, tono y enfoque detrás de tus palabras")
@@ -70,11 +70,11 @@ with col1:
 
     st.divider()
 
-    st.markdown("### 🧠 Entrenando Modelos")
+    st.markdown("### 🧠 Analizador de Sentimientos y Corrección de Texto")
     image = Image.open('OIG5.jpg')
     st.image(image, use_container_width=True)
-    st.write("Usa tus propios modelos entrenados en Teachable Machine.")
-    st.link_button("Abrir Modelo", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/")
+    st.write("Explora cómo TextBlob interpreta el tono emocional de tus palabras y mejora tu escritura en inglés con su sistema de corrección automática. ")
+    st.link_button("Abrir Analizador de Sentimientos y Corrección de Texto", "https://scvxamkhdjwswtzyhwwnxq.streamlit.app")
 
 # =======================
 # COLUMNA 2
