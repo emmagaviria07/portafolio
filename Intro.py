@@ -11,14 +11,18 @@ with st.sidebar:
   )
   st.write(parrafo)
 
+url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
+st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
+st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
+col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Analizador Semántico en Español")
+ st.subheader("Conversión de texto a voz")
  image = Image.open('txt_to_audio2.png')
  st.image(image, width=190)
  st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
- url = "https://fpjf47zlshrzwcsafmahnc.streamlit.app"
+ url = "https://imultimod.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
  st.subheader("Reconocimiento de Objetos")
@@ -79,5 +83,3 @@ with col3:
  st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
  url = "https://vision2-gpt4o.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
-
-
