@@ -122,8 +122,8 @@ with col3:
 
     st.divider()
 
-    st.markdown("### ⚙️ Sistema Ciberfísico")
-    image = Image.open('OIG6.jpg')
+    st.markdown("### ⚙️ Conversión de Texto a Audio")
+    image = Image.open('1f14b442c7ba1c4da0d01abb883c3831.jpg')
     st.image(image, use_container_width=True)
-    st.write("Explora cómo la IA puede interactuar con el entorno físico.")
-    st.link_button("Abrir Sistema", "https://vision2-gpt4o.streamlit.app/")
+    st.write("Esrcibe y/o selecciona texto para ser escuchado.")
+    st.link_button("Abrir", "https://vozatexto-cuento-7prvibeydfnkmbzvfnbf8p.streamlit.app")
