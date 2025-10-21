@@ -149,7 +149,7 @@ st.markdown(
 # Centrado de contenido (imagen + botón)
 col_a, col_b, col_c = st.columns([1, 2, 1])  # Centra el bloque en pantalla
 with col_b:
-    image = Image.open("extra_app.jpg")  # Cambia este nombre por tu imagen
+    image = Image.open("imagen_2025-10-21_164905350.png")  # Cambia este nombre por tu imagen
     st.image(image, use_container_width=True)
     st.write(
         "<p style='text-align:center;'>Explora esta herramienta impulsada por Inteligencia Artificial.</p>",
