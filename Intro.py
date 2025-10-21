@@ -71,7 +71,7 @@ with col1:
     st.divider()
 
     st.markdown("### 🧠 Analizador de Sentimientos y Corrección de Texto")
-    image = Image.open('OIG5.jpg')
+    image = Image.open('senntimientos.jpg')
     st.image(image, use_container_width=True)
     st.write("Explora cómo TextBlob interpreta el tono emocional de tus palabras y mejora tu escritura en inglés con su sistema de corrección automática. ")
     st.link_button("Abrir Analizador de Sentimientos y Corrección de Texto", "https://scvxamkhdjwswtzyhwwnxq.streamlit.app")
