@@ -127,3 +127,32 @@ with col3:
     st.image(image, use_container_width=True)
     st.write("Esrcibe y/o selecciona texto para ser escuchado.")
     st.link_button("Abrir", "https://vozatexto-cuento-7prvibeydfnkmbzvfnbf8p.streamlit.app")
+
+    # =======================
+# NUEVA SECCIÓN FINAL
+# =======================
+st.markdown("---")  # Línea divisoria para separar visualmente
+
+st.markdown(
+    """
+    <h2 style='text-align:center; color:#1A5276;'>
+        🌐 Proyecto adicional de Inteligencia Artificial
+    </h2>
+    <p style='text-align:center; font-size:16px;'>
+        Explora una nueva aplicación experimental que combina visión, texto y generación de contenido.
+    </p>
+    """,
+    unsafe_allow_html=True
+)
+
+# Imagen y botón centrados
+col_a, col_b, col_c = st.columns([1, 2, 1])  # Centra el contenido
+with col_b:
+    image = Image.open('extra_app.jpg')  # Cambia el nombre de la imagen si es otro archivo
+    st.image(image, use_container_width=True)
+    st.write(
+        "<p style='text-align:center;'>Descubre esta aplicación adicional impulsada por IA.</p>",
+        unsafe_allow_html=True
+    )
+    st.link_button("Abrir Proyecto Extra", "https://tu-nueva-app.streamlit.app")
+
