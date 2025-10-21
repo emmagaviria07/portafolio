@@ -96,11 +96,11 @@ with col2:
 
     st.divider()
 
-    st.markdown("### 🎧 Transcriptor de Audio y Video")
-    image = Image.open('OIG3.jpg')
+    st.markdown("### 🎧 Chat PDF")
+    image = Image.open('6b6dd5a171abf33c000b1ddb83bb4fe2.jpg')
     st.image(image, use_container_width=True)
-    st.write("Convierte audio o video en texto con precisión automática.")
-    st.link_button("Abrir Transcriptor", "https://transcript-whisper.streamlit.app/")
+    st.write("Este asistente utiliza RAG (Retrieval-Augmented Generation) para responder preguntas basadas en el contenido de un PDF. Sube un documento, haz una pregunta, y deja que el modelo te dé una respuesta contextualizada. 📘✨")
+    st.link_button("Abrir Chat PDF", "https://chatpdf-hq3ejh6xa6ar6xmjmujbjh.streamlit.app")
 
 # =======================
 # COLUMNA 3
