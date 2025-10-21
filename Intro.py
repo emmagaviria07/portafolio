@@ -54,7 +54,7 @@ col1, col2, col3 = st.columns(3)
 # COLUMNA 1
 # =======================
 with col1:
-    st.markdown("### 🗣️ Conversión de texto a voz")
+    st.markdown("###  Analizador Semántico en Español")
     image = Image.open('txt_to_audio2.png')
     st.image(image, use_container_width=True)
     st.write("Convierte texto escrito en voz humana con IA.")
