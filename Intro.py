@@ -58,15 +58,15 @@ with col1:
     image = Image.open('imagen_2025-10-21_160938233.png')
     st.image(image, use_container_width=True)
     st.write("Explora cómo la inteligencia artificial analiza similitudes entre textos usando TF-IDF, Ingresa tus documentos y una pregunta para descubrir cuál tiene la respuesta más cercana.")
-    st.link_button("Abrir Texto a Voz", "https://fpjf47zlshrzwcsafmahnc.streamlit.app")
+    st.link_button("Abrir Analizador Esp", "https://fpjf47zlshrzwcsafmahnc.streamlit.app")
 
     st.divider()
 
-    st.markdown("### 🎯 Reconocimiento de Objetos")
-    image = Image.open('txt_to_audio.png')
+    st.markdown("### 🎯 Analizador Emocional")
+    image = Image.open('emociones.png')
     st.image(image, use_container_width=True)
-    st.write("Detecta y clasifica objetos en imágenes con YOLO.")
-    st.link_button("Abrir YOLO", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/")
+    st.write("Explora la emoción, tono y enfoque detrás de tus palabras")
+    st.link_button("Abrir Analizador Emocional", "https://eth3kutqednvvf4mduxqel.streamlit.app")
 
     st.divider()
 
